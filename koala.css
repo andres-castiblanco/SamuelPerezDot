@@ -86,3 +86,8 @@ div.not-found {
   margin-top: 200px;
   font-size: 32px;
 }
+
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
