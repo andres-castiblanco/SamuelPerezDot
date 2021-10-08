@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="google" content="notranslate">
-    <title>Koalas to the Max dot Com</title>
+    <title>Samuel Perez dot Com</title>
     <script type="text/javascript">var version = '1.9.4';</script>
     <script type="text/javascript" src="polyfill/polyfill.js?1.9.4"></script>
     <script type="text/javascript" src="polyfill/Blob.js?1.9.4"></script>
@@ -28,6 +28,7 @@
           JavaScript is needed to view this site.
         </noscript>
         <div id="dots"></div>
+       <!-- 
         <div id="next" style="display: none">
           <div class="msg">
             Awesome stuff! Now make your own and share the link.<br>
@@ -35,15 +36,16 @@
           </div>
           <input placeholder="http://imgur.com/your_favourite_image.jpg"/>
         </div>
+        -->
       </div>
     </div>
     <div id="footer">
-      Made with <span id="love">love</span> by
+      Hecho <span id="love"></span> por
+      <a href="https://www.linkedin.com/in/samuel-perez-spatial-data-scientist/">Samuel Perez</a>
+      gracias a
       <a href="http://vadim.ogievetsky.com">Vadim Ogievetsky</a>
-      for
-      <a href="http://anniealbagli.com">Annie Albagli</a>
       &nbsp; / &nbsp;
-      Powered by
+      Realizado en
       <a href="http://d3js.org/">D3</a>
     </div>
 
@@ -263,7 +265,7 @@
           }
 
           function basicLoad(location) {
-            var possible = ['koalas', 'koalas1', 'koalas2', 'koalas3'];
+            var possible = ['me', '', '', ''];
             var file = 'img/' + possible[Math.floor(Math.random() * possible.length)] + '.jpg'
             return {
               file: file,
